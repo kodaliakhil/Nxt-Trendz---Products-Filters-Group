@@ -1,0 +1,86 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #f1f5f9;
+  padding: 2px;
+}
+
+.search-input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.category-heading {
+  font-weight: bold;
+}
+
+.category-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  align-items: flex-start;
+}
+
+.category-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.rating-heading {
+  font-weight: bold;
+}
+
+.rating-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.stars-text-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.rating-stars-img {
+  width: 80%;
+  height: 30px;
+}
+
+.clear-filters-btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: #0967d2 solid 1px;
+  color: #0967d2;
+}
